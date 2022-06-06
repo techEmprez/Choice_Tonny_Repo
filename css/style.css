@@ -1,0 +1,15 @@
+section#welcome-section {
+    height: 100vh;
+}
+ 
+section#welcome-section >
+div.container {
+    padding: 0;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    height: 100%;
+}
