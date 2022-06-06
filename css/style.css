@@ -1,15 +1,125 @@
-section#welcome-section {
-    height: 100vh;
+body {
+  width: 100%;
+  height: 100%;
 }
- 
-section#welcome-section >
-div.container {
-    padding: 0;
- 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
- 
-    height: 100%;
+
+section#welcome-section {
+  height: 100vh;
+}
+
+section#welcome-section > div.container {
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+nav#navbar {
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: black;
+}
+
+nav#navbar > div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.socials-container {
+  margin: 25px 0;
+  padding: 5px 0;
+}
+
+ul.socials {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+li.socials-items > a {
+  font-size: 20pt;
+  font-family: "Oswald";
+  font-weight: 500;
+  letter-spacing: 0pt;
+
+  margin: 0px 15px;
+  color: black;
+}
+
+section#welcome-section {
+  height: 100vh;
+}
+
+section#welcome-section > div.container {
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+header#welcome-header {
+  text-align: center;
+  display: inherit;
+  flex-direction: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+}
+header#welcome-header > div.text-wrapper {
+  width: 65%;
+}
+
+@media only screen and (max-width: 600px) {
+  header#welcome-header > div.text-wrapper > p {
+    margin-top: 15px;
+  }
+}
+
+footer#footer-section {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  border-top: 2px solid red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer#footer-section > div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+div.container > div.text-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
 }
